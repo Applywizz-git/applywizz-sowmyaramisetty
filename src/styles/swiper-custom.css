@@ -1,0 +1,55 @@
+/* Custom Swiper Styles for Premium Theme */
+
+.swiper {
+  padding-bottom: 3rem !important;
+}
+
+.swiper-pagination-bullet {
+  background: hsl(var(--muted-foreground)) !important;
+  opacity: 0.5 !important;
+  width: 12px !important;
+  height: 12px !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: hsl(var(--primary)) !important;
+  opacity: 1 !important;
+  width: 32px !important;
+  border-radius: 6px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: hsl(var(--primary)) !important;
+  background: hsl(var(--glass-bg)) !important;
+  backdrop-filter: blur(12px) !important;
+  border: 1px solid hsl(var(--glass-border)) !important;
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: hsl(var(--primary) / 0.1) !important;
+  box-shadow: var(--shadow-glow) !important;
+  transform: scale(1.1) !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+/* Coverflow shadows */
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  background-image: linear-gradient(
+    to right,
+    hsl(var(--background) / 0.5),
+    transparent
+  ) !important;
+}
