@@ -120,11 +120,11 @@ const Hero = () => {
                 whileHover={{ scale: 1.05, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800"
-                  alt="Sowmya Ramisetty"
-                  className="w-full h-full object-cover"
-                />
+               <img
+                src="/profile.jpg"
+                alt="Sowmya Ramisetty"
+                className="w-full h-full object-cover"
+              />
               </motion.div>
             </div>
           </motion.div>
