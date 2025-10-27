@@ -121,7 +121,7 @@ const Hero = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                <img
-                src="/sowmyaramishetty111.jpeg"
+                src="/sowmya.png"
                 alt="Sowmya Ramisetty"
                 className="w-full h-full object-cover"
               />
